@@ -9,7 +9,7 @@ body
 {
     height: 100vh;
     font-family: 'Playfair Display', 'serif';
-    
+    overflow: hidden;
   
 }
 canvas{
@@ -32,16 +32,19 @@ canvas{
     z-index: 99;
     height: 100%;
     width: 100%;
+   
 }
 
 h1{
     font-size: 5em;
     font-weight: bold;
     margin-left: 2vw;
+    margin-top: 15%;
+    
 }
 
  h3{
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
     margin-left: 2vw;
 }
@@ -55,5 +58,14 @@ h4{
 a{
     margin-left: 2vw;
     padding: 1%;
+    position: absolute;
+    display: block;
+    z-index: 99;
     background-color: slateblue;
+    font-weight: bolder;
+}
+
+.p{
+    color: slateblue;
+    font-weight: bolder;
 }
